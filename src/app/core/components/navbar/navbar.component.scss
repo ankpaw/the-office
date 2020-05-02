@@ -1,0 +1,16 @@
+.boring-navbar {
+    .navbar-brand {
+        .teal {
+            color: teal;
+        }
+        &:after{
+            content: "|";
+            padding-left: 20px;
+            padding-right: 10px;
+            color: black;
+        }
+    }
+    .dark-blue {
+        color:darkblue;
+    }
+}
