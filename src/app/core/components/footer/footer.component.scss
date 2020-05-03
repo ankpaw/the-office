@@ -1,0 +1,16 @@
+.boring-footer {
+    background-color: gray;
+    bottom: 0;
+    color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    .footer-text{
+        display: inline-flex;
+    }
+    .footer-copyright{
+        display: inline-flex;
+    }
+    .pull-right{
+        float: right;
+    }
+  }
