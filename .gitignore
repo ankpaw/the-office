@@ -44,3 +44,12 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+.vscode/launch.json
+.vscode/tasks.json
+Angular9Assignment/.vs/Angular9Assignment/DesignTimeBuild/.dtbcache
+Angular9Assignment/.vs/Angular9Assignment/config/applicationhost.config
+Angular9Assignment/.vs/Angular9Assignment/v16/.suo
+Angular9Assignment/.vs/Angular9Assignment/v16/Server/sqlite3/db.lock
+Angular9Assignment/.vs/Angular9Assignment/v16/Server/sqlite3/storage.ide
+/Angular9Assignment/.vs/Angular9Assignment/v16/Server/sqlite3
+/Angular9Assignment/Angular9Assignment/obj
