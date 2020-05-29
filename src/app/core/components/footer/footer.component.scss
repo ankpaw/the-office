@@ -1,7 +1,9 @@
+@import 'variables.scss';
 .boring-footer {
-    background-color: #242424;
+    margin-top: 50px;
+    background-color: $theme-black;
     bottom: 0;
-    color: white;
+    color: $white;
     padding: 1em;
     .footer-text{
         display: inline-flex;

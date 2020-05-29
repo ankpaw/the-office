@@ -1,6 +1,7 @@
+@import "variables.scss";
 .boring-hero {
     .container {
-        color:white;
+        color: $white;
         background-image: url("../../../../assets/img/hero-desktop.png");
         background-position: center;
         background-repeat: no-repeat;

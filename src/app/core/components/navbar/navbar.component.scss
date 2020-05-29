@@ -1,16 +1,11 @@
+@import "variables.scss";
 .boring-navbar {
     .navbar-brand {
-        .teal {
-            color: teal;
-        }
         &:after{
             content: "|";
             padding-left: 20px;
             padding-right: 10px;
-            color: black;
+            color: $black;
         }
-    }
-    .dark-blue {
-        color:darkblue;
     }
 }

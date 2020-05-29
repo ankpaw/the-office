@@ -1,0 +1,23 @@
+@import "variables.scss";
+.boring-card {
+    width: 22rem;
+    border: none;
+    box-shadow: 0px 10px 20px $shadow-black;
+    .card-body{
+        .list-group {
+            border-bottom: 1px solid #0000001A;
+            padding-bottom: 10px;
+            .list-group-item {
+                padding: 0px;
+                border-bottom: 0px;
+
+                &:not(:first-child) {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .link-container {
+        padding: 0px 0px 20px 20px;
+    }
+}
