@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { ICatalogItem } from "./ICatalogItem";
 
 @Component({
   selector: 'app-catalog',
@@ -6,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./catalog.component.scss']
 })
 export class CatalogComponent implements OnInit {
-  heading = "Power BI Experts"
+  @Input() catalogItem: ICatalogItem;
   constructor() { }
 
   ngOnInit(): void {

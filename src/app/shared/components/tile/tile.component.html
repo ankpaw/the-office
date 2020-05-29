@@ -1,13 +1,12 @@
 <div class="boring-card card">
-    <img class="card-img-top" src="../../../../assets/img/TileImage1.png" alt="Card image cap">
+    <img class="card-img-top" src="{{tile.ImageSource}}" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">Custom Visuals</h5>
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">Created over 20 percent of custom visuals available on Microsoft AppSource</li>
-        <li class="list-group-item">400,000+ downloads of our custom visuals</li>
+      <h5 class="card-title">{{tile.Title}}</h5>
+      <ul class="list-group list-group-flush" *ngFor="let item of tile.Highlights">
+        <li class="list-group-item">{{item}}</li>
       </ul>
     </div>
     <div class="link-container">
-      <a href="#" class="card-link">Learn more ></a>
+      <a href="{{tile.CallToActionLink}}" class="card-link">{{tile.CallToActionText}} ></a>
     </div>
   </div>

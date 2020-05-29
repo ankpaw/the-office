@@ -1,3 +1,5 @@
 <app-hero></app-hero>
 <hr>
-<app-catalog></app-catalog>
+<ng-container *ngFor="let item of catalogItems">
+    <app-catalog [catalogItem]="item"></app-catalog>
+</ng-container>

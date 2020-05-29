@@ -1,2 +1,6 @@
-<h4>{{heading}}</h4>
-<app-tile></app-tile>
+<h4>{{catalogItem.Heading}}</h4>
+<div class="boring-tileContainer">
+    <ng-container *ngFor="let tile of catalogItem.Tiles">
+        <app-tile [tile]="tile"></app-tile>
+    </ng-container>
+</div>
