@@ -1,10 +1,19 @@
 .boring-hero {
-    background-image: url("../../../../assets/img/jumbotron_bg.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
     .container {
         color:white;
+        background-image: url("../../../../assets/img/hero-desktop.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        .display-4 {
+            font-size: 38px;
+            width: 55%;
+            font-weight: 600;
+        }
+        .lead {
+            width: 45%;
+            font-size: 18px;
+        }
     }
   }
