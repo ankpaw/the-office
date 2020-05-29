@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { AvatarComponent } from './components/avatar/avatar.component';
-
-
+import * as shared from './components';
+import { CatalogComponent } from './components/catalog/catalog.component';
 
 @NgModule({
-  declarations: [AvatarComponent],
+  declarations: [...shared.components, CatalogComponent],
   imports: [
     CommonModule
   ],
   exports: [
-    AvatarComponent
+    ...shared.components
   ]
 })
 export class SharedModule { }

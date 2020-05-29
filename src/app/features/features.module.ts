@@ -1,15 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HomeComponent } from './components/home/home.component';
-import { HeroComponent } from './components/hero/hero.component';
-
-
+import * as feature from './components';
+import { SharedModule } from "../shared/shared.module";
 
 @NgModule({
-  declarations: [HomeComponent, HeroComponent],
+  declarations: [...feature.components],
   imports: [
-    CommonModule
+    CommonModule,
+    SharedModule
   ],
-  exports: [HomeComponent]
+  exports: [...feature.components]
 })
 export class FeaturesModule { }
