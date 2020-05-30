@@ -6,7 +6,7 @@
     box-shadow: 0px 10px 20px $shadow-black;
     .card-body{
         .list-group {
-            border-bottom: 1px solid #0000001A;
+            border-bottom: 1px solid $shadow-black;
             padding-bottom: 10px;
             .list-group-item {
                 padding: 0px;

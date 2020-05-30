@@ -1,4 +1,4 @@
-<div class="boring-card card">
+<div class="boring-card card" *ngIf="!!tile">
     <img class="card-img-top" src="{{tile.ImageSource}}" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">{{tile.Title}}</h5>
