@@ -1,8 +1,6 @@
 @import "variables.scss";
 .boring-card {
-    width: 22rem;
     border: none;
-    display: block;
     box-shadow: 0px 10px 20px $shadow-black;
     .card-body{
         .list-group {

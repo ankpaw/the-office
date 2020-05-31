@@ -1,8 +1,8 @@
 <ng-container *ngIf="!!catalogItem">
     <h4>{{catalogItem.Heading}}</h4>
-    <div class="boring-tileContainer">
+    <div class="boring-tileContainer row">
         <ng-container *ngFor="let tile of catalogItem.Tiles">
-            <app-tile [tile]="tile"></app-tile>
+            <app-tile class="col-sm-4" [tile]="tile"></app-tile>
         </ng-container>
     </div>
 </ng-container>
